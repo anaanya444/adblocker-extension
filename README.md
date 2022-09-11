@@ -1,3 +1,5 @@
+A simple ad-blocking extension for Chrome and Chromium built using TypeScript, React and Chrome's declarative Net Request API, which is used to block or modify network requests by specifying declarative rules. It provides a seamless browsing and streaming experience.
+
 ## Getting Started
 
 1. `npm i` to install dependancies
@@ -23,9 +25,3 @@
 1. `npm run build` to generate a minimized production build in the `dist` folder
 2. ZIP the entire `dist` folder (e.g. `dist.zip`)
 3. Publish the ZIP file on the Chrome Web Store Developer Dashboard!
-
-## Important Default Boilerplate Notes
-
-- Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
-- Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
-- Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
