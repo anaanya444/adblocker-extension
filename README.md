@@ -1,5 +1,3 @@
-# React Chrome Extension Boilerplate
-
 ## Getting Started
 
 1. `npm i` to install dependancies
